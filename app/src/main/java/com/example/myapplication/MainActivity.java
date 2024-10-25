@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         btn_select = findViewById(R.id.btn_choice);
         btn_select.setOnClickListener(view ->{
             mStartForResult.launch(
-                    new Intent(this, MainActivity.class));
+                    new Intent(this, MainActivity2.class));
         });
     }
 }
